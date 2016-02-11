@@ -26,6 +26,6 @@
 <p> For booking inquiries, send an email to <a href="mailto:waffletaco@clodewerks.com">Waffle Taco</a>.</p>
 </div>
 		</div>
-		<div id="footer">&#169; 2013 Waffle Taco</div>
+		<div id="footer">&#169; 2015 Waffle Taco</div>
 	</body>
 </html>
