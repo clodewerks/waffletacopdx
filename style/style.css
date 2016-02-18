@@ -1,120 +1,74 @@
-/* http://colorschemedesigner.com/ put in background color, selected triad*/
-
 @font-face {
-    font-family: 'jazztextregular';
-    src: url('jazztext-webfont.eot');
-    src:  local('JazzText'), 
-    	 url('jazztext-webfont.eot?#iefix') format('embedded-opentype'),
-         url('jazztext-webfont.woff') format('woff'),
-         url('jazztext-webfont.ttf') format('truetype'),
-         url('jazztext-webfont.svg#jazztextregular') format('svg');
-	font-weight: normal;
-    font-style: normal;
-}
+  font-family: 'jazztextregular';
+  src: url("jazztext-webfont.eot");
+  src: local("JazzText"), url("jazztext-webfont.eot?#iefix") format("embedded-opentype"), url("jazztext-webfont.woff") format("woff"), url("jazztext-webfont.ttf") format("truetype"), url("jazztext-webfont.svg#jazztextregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+html {
+  margin: 0px;
+  padding: 0px; }
 
-a{
-color: #2B0C3A;
-}
+body {
+  background: url(../images/bg.jpg) no-repeat center fixed;
+  background-size: cover;
+  font-family: arial, sans-serif;
+  padding: 0px;
+  margin: 0px; }
 
-body{
-font: 14px arial,sans-serif;
-color: #111111;
-background:#2b0c3a;
-}
+h2 {
+  font: 28px/30px jazztextregular, sans-serif; }
 
-h1{
-font:72px jazztextregular, sans-serif;
-color: #AB9A40;
-position:absolute;
-top:0px;
-left:300px;
-line-height:72px;
-}
+#content {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 40px 5%;
+  margin: 0px 15%; }
+  #content img {
+    float: right; }
 
-h3{
-font:24px jazztextregular, sans-serif;
-color:#39510D;
-}
+#header {
+  height: 100px;
+  background: rgba(35, 18, 44, 0.5);
+  margin: 20px 0px;
+  border-bottom: #23122c;
+  border-top: #23122c; }
+  #header h1 {
+    color: white;
+    font: 72px jazztextregular, sans-serif;
+    text-align: center;
+    margin: 0px; }
 
-#header{
-background:url('../images/wtLogo.png') no-repeat scroll 30px 20px  #23122C;
-position: relative;
-height:150px;
-width:720px;
-border-bottom:1px solid #2b1025;
-border-radius:25px 25px 0px 0px;
-}
+#nav {
+  width: 100%; }
+  #nav a {
+    text-decoration: none; }
 
-.clear{
-clear:both;
-}
+#footer {
+  height: 50px;
+  background: rgba(35, 18, 44, 0.5);
+  margin-top: 20px;
+  text-align: center;
+  color: #ccc;
+  line-height: 50px; }
 
-#content{
-position: relative;
-background:#87589D;
-width: 680px;
-padding: 20px;
-}
+#wrapper {
+  width: 100%; }
 
-#content h2{
-font:36px jazztextregular, sans-serif;
-color:#39510D;
-}
+.clear {
+  clear: both; }
 
-#content img{
-float: right;
-margin: 0 0 10px 10px;
-}
+.video {
+  position: relative;
+  padding-bottom: 42%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+  width: 100%; }
 
-#footer{
-color: #AB9E5D;
-margin:0px auto;
-width: 680px;	
-padding: 20px;
-text-align: center;
-}
+.video iframe, .video-container object, .video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
 
-#live h2{
-font: 18px arial,sans-serif;
-}
-
-#nav{
-background:#1B0426;
-width: 720px;
-height: 30px;
-color:#AB9E5D;
-}
-
-
-
-#nav a{
-text-decoration: none;
-color: #AB9A40;
-font-weight: 700;
-float: left;
-padding: 5px 10px;
-}
-
-#nav a:hover{
-color: #AB9E5D;
-}
-
-#fb{
-display: block;
-float:right;
-background: url(/images/f_logo.png) no-repeat center center;
-width:14px;
-height: 16px;
-}
-
-
-#soundcloud{
-margin-top: 20px;
-}
-
-#wrapper{
-margin:0px auto;
-width: 720px;
-border-radius:25px 25px 0px 0px;
-box-shadow: 5px 5px 5px #1B0426;
-}
+/*# sourceMappingURL=style.css.map */
