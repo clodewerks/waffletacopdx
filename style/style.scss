@@ -17,7 +17,7 @@ margin:0px;
 padding:0px;
 }
 body{
-	background: url(../images/bg.jpg) no-repeat center fixed;
+	background: url(../images/bg.jpg) no-repeat center fixed #cccccc; 
 	background-size: cover;
 	font-family: arial, sans-serif;
 	padding:0px;
@@ -52,9 +52,22 @@ border-top: rgba(35,18,44,1);
 
 }
 #nav{
-width:100%;
+background:rgba(255,255,255,0.85);
+margin: 0px 15%;
+padding:0px 5%;
+border-bottom:1px solid rgba(35,18,44,1);
+height:37px;
+text-align: center;
 	a{
+		color: rgba(35,18,44,1);
 		text-decoration:none;
+		padding:10px 15px; 
+		text-align:center;
+		line-height: 37px;
+	}
+	a:hover{
+		background: rgba(35,18,44,1);
+		color:white;
 	}
 }
 

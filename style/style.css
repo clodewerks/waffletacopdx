@@ -9,7 +9,7 @@ html {
   padding: 0px; }
 
 body {
-  background: url(../images/bg.jpg) no-repeat center fixed;
+  background: url(../images/bg.jpg) no-repeat center fixed #cccccc;
   background-size: cover;
   font-family: arial, sans-serif;
   padding: 0px;
@@ -38,9 +38,21 @@ h2 {
     margin: 0px; }
 
 #nav {
-  width: 100%; }
+  background: rgba(255, 255, 255, 0.85);
+  margin: 0px 15%;
+  padding: 0px 5%;
+  border-bottom: 1px solid #23122c;
+  height: 37px;
+  text-align: center; }
   #nav a {
-    text-decoration: none; }
+    color: #23122c;
+    text-decoration: none;
+    padding: 10px 15px;
+    text-align: center;
+    line-height: 37px; }
+  #nav a:hover {
+    background: #23122c;
+    color: white; }
 
 #footer {
   height: 50px;
