@@ -9,7 +9,7 @@ html {
   padding: 0px; }
 
 body {
-  background: url(../images/bg.jpg) no-repeat center fixed #cccccc;
+  background: url(../images/bg.jpg) no-repeat center fixed #555555;
   background-size: cover;
   font-family: arial, sans-serif;
   padding: 0px;
@@ -17,6 +17,9 @@ body {
 
 h2 {
   font: 28px/30px jazztextregular, sans-serif; }
+
+#albums {
+  margin-bottom: 20px; }
 
 #content {
   background-color: rgba(255, 255, 255, 0.85);
