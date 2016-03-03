@@ -3,8 +3,9 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<title>Waffle Taco</title>
-		<link rel="shortcut icon" href="/images/weblogo.ico" />
-		<link rel='stylesheet' href='/style/style.css' type='text/css' />
+		<link rel="shortcut icon" href="./images/weblogo.ico" />
+		<link rel='stylesheet' href='./style/style.css' type='text/css' />
+		<link rel="stylesheet" href="./fontAwesome/css/font-awesome.min.css">
 	</head>
 	<body>
 		<div id="wrapper">
@@ -12,27 +13,47 @@
 			<h1>Waffle Taco</h1>
 			</div>
 			<div id="nav">
-				<a href="index.html"> About </a>
-				<a href="listen.html">Listen</a>
-				<a href="live.php">Live</a>
-				<a href="mailto:waffletaco@clodewerks.com">Contact</a>
-				<a href="http://waffletaco.bandcamp.com/">Shop</a>
-				<a id="fb" href="https://www.facebook.com/waffletacopdx"></a>
+				<a href="#live" title="live"><i class="fa fa-volume-up"></i></a>
+				<a href="#listen" title="listen"><i class="fa fa-headphones"></i></a>			
+				<a href="#video" title="video"><i class="fa fa-film"></i></a>
+				<a href="mailto:waffletaco@clodewerks.com" title="email"><i class="fa fa-envelope"></i></a>
+				<a href="http://waffletaco.bandcamp.com/" title="shop"><i class="fa fa-shopping-cart"></i></a>
+				<a id="fb" href="https://www.facebook.com/waffletacopdx" title="facebook"><i class="fa fa-facebook-official"></i></a>
+				<a href="https://www.youtube.com/channel/UClTIgr8r_qAjWSOzdBFfirg" title="youtube"><i class="fa fa-youtube-play"></i></a>
+				<a href="https://play.spotify.com/artist/3eZuYqJfnbJcCUpM9fQa26"><i class="fa fa-spotify" title="spotify"></i></a>
+				<a href="https://soundcloud.com/waffle-taco" title="soundcloud"><i class="fa fa-soundcloud"></i></a>
 			</div>
 			
 			<div id="content">
-				<img src="images/wtpic.jpg" alt="Waffle Taco"/>
-				<h2>About Us</h2>
-				
-				<p>Waffle Taco is a duo comprised of Ben Beauvais (bass, rhodes and vocals), and Kyle Linneman (trumpet and technology). influences include Portishead, Miles Davis, and Venetian snares.</p>
-				<p><strong>Ben Beauvais</strong> is a singer/songwriter/multi instrumentalist/producer. He brings to the table over 30 years of performing, and recording experience on the LA and SF scenes. Ben plays a wide variety of styles and genres, combining aspects of funk, jazz, electronica, and hip hop to create a sophisticated yet visceral sound.</p>
-				<p><strong>Kyle Linneman</strong>  is an electronic musician/DJ/web programmer/trumpet performer. He has over 12 years of trumpet performance experience, and has a degree in Music Technology from the University of Oregon. He plays trumpet in a wide variety of styles, but focuses his work on combining trumpet and electronics for unique and rich sound.</p>
+			
+			<div class="video"><iframe src="https://www.youtube.com/embed/videoseries?list=PLepiYQ0-lwV5dIzbUJIrnN_DLqd6mE4Vd" frameborder="0" allowfullscreen></iframe></div>
+			<div class="clear"></clear>
+				<p>Waffle Taco sprang into existence in the summer of 2011. Two very different men came to the promised land of Portland to start a new chapter of their lives. One was fresh out of college, with nothing but a trumpet, a degree in Music Technology, and dreams of putting the two together for a higher purpose. The other a veteran bassist of LA and SF, looking to continue musical success in greener pastures.  </p>
+<p>Bonding over love of different blends of funk, jazz, electronica, and hip hop, as well as the bountiful food and beverage the city had to offer, the two men decided to combine efforts. </p>
+<p>Through the years, the dynamic duo has weathered the storms of gentrification through a steadfast commitment to creativity and improvisation.  </p>
 				<div class="clear"></div>
-				<h3>From other people:</h3>
+				<h2 id="live">Live</h2>
+					<a href="http://www.songkick.com/artists/5993109" class="songkick-widget" data-theme="light" data-track-button="on" data-detect-style="true" data-background-color="transparent">Grab a beer with us:</a>
+<script src="//widget.songkick.com/widget.js"></script>
+				<h2 id="listen">Listen:</h2>
+				<div id="albums">
+				<h3>Albums:</h3>
+				<iframe style="border: 0; width: 200px; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=78552734/size=large/bgcol=ffffff/linkcol=7137dc/minimal=true/transparent=true/" seamless><a href="http://waffletaco.bandcamp.com/album/a-la-cart">A La Cart by Waffle Taco</a></iframe>
+				<iframe style="border: 0; width: 200px; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=4007082456/size=large/bgcol=ffffff/linkcol=7137dc/minimal=true/transparent=true/" seamless><a href="http://waffletaco.bandcamp.com/album/waffle-taco">Waffle Taco by Waffle Taco</a></iframe>
+				</div>
+				<h3>Other Tracks</h3>
+				<div id="soundcloud">
+					<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Fusers%2F7844303&amp;color=39510d&amp;theme_color=87589d&amp;auto_play=false&amp;show_artwork=false"></iframe>
+				</div>
+				<h2 id="video">Video</h2>
+				<div class="video">
+				<iframe width="420" height="315" src="http://www.youtube.com/embed/1IYYm2b65jI?rel=0" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<h2>What They Say:</h2>
 				<p>Willamette Week: <em><a href="http://www.wweek.com/portland//event-143263-waffle_taco_fond_of_snakes_lithopedian_hellocitizen.html" rel="newwindow">Waffle Taco is aurally, weirdly delicious.</a></em></p>
-				<p>The Portland Mercury: <em><a href="http://www.portlandmercury.com/portland/waffle-taco/Event?oid=14417281" rel="newwindow">Waffle Taco</em></p>
+				<p>The Portland Mercury: <em><a href="http://www.portlandmercury.com/portland/waffle-taco/Event?oid=14417281" rel="newwindow">Waffle Taco</a></em></p>
 			</div>
 		</div>
-		<div id="footer">&#169; 2015 Waffle Taco</div>
+		<div id="footer">&#169; 2016 Waffle Taco</div>
 	</body>
 </html>

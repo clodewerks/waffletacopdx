@@ -14,7 +14,7 @@
 			<div id="nav">
 				<a href="index.html"> About </a>
 				<a href="listen.html">Listen</a>
-				<a href="live.php">Live</a>
+				<a href="live.html">Live</a>
 				<a href="mailto:waffletaco@clodewerks.com">Contact</a>
 				<a href="http://waffletaco.bandcamp.com/">Shop</a>
 				<a id="fb" href="https://www.facebook.com/waffletacopdx"></a>
