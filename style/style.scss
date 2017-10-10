@@ -22,12 +22,16 @@ body{
 	background: url(../images/bg.jpg) no-repeat center fixed #555555; 
 	background-size: cover;
 	font-family: arial, sans-serif;
-	padding:0px;
+	padding:0px; 
 	margin:0px;
 }
 
 h2{
 font: 28px/30px $headerFont;
+}
+
+a{
+	cursor:pointer;
 }
 
 #albums{
@@ -66,6 +70,7 @@ height:37px;
 text-align: center;
 	a{
 		color: rgba(35,18,44,1);
+		cursor:pointer;
 		text-decoration:none;
 		padding:10px 15px; 
 		text-align:center;
@@ -74,6 +79,7 @@ text-align: center;
 	a:hover{
 		background: rgba(35,18,44,1);
 		color:white;
+		cursor:pointer;
 	}
 }
 
