@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:300|PT+Sans');
 @font-face {
     font-family: 'jazztextregular';
     src: url('jazztext-webfont.eot');
@@ -10,6 +11,7 @@
     font-style: normal;
 }
 
+
 $purple: rgba(35,18,44,0.5);
 $headerFont: jazztextregular, sans-serif;
 
@@ -19,17 +21,21 @@ html{
 }
 
 body{
-	background: url(../images/bg.jpg) no-repeat center fixed #555555; 
-	background-size: cover;
-	font-family: arial, sans-serif;
+	background:url(../images/wtpic.jpg) no-repeat top center;
+	background-size:cover;
+	 background-attachment: fixed;
+	font-family:'PT Sans', arial, sans-serif;
+	font-size:17px;
 	padding:0px; 
 	margin:0px;
 }
 
 h2{
-font: 28px/30px $headerFont;
+font: 28px/30px 'Nunito', Sans-Serif;
 }
-
+h3{
+font: 24px/26px 'Nunito', Sans-Serif;
+}
 a{
 	cursor:pointer;
 }
@@ -81,6 +87,20 @@ text-align: center;
 		color:white;
 		cursor:pointer;
 	}
+	.nav-dropdown{
+		color: rgba(35,18,44,1);
+		cursor:pointer;
+		text-decoration:none;
+		padding:10px 15px; 
+		text-align:center;
+		line-height: 37px;
+		height:37px;
+		overflow:hidden;
+			a{
+			display:block;
+			}
+	}
+
 }
 
 #footer{
@@ -93,6 +113,8 @@ text-align: center;
 }
 
 #wrapper{
+	padding-top:500px;
+	
 	width: 100%;
 }
 
@@ -106,6 +128,7 @@ clear:both;
 	height:0;
 	overflow:hidden;
 	width:100%;
+	margin-bottom:20px;
 }
 
 .video iframe, .video-container object, .video-container embed {
