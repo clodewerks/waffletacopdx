@@ -1,100 +1,144 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<title>Waffle Taco</title>
-		<link rel="shortcut icon" href="./images/weblogo.ico" />
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<link rel='stylesheet' href='./style/style.css' type='text/css' />
-		<link rel="stylesheet" href="./fontAwesome/css/font-awesome.min.css">
-		<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
-		
-		<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-		ga('create', 'UA-77850411-1', 'auto');
-		ga('send', 'pageview');
-		</script>
-	</head>
-	<body>
-		<div id="bg"></div>
-		<nav class="navbar navbar-inverse navbar-fixed-top">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			</button>
-			<div class="container-fluid">
-				<div class="navbar-header">
-					<a class="navbar-brand" href="#">Waffle Taco</a>
-				</div>
-				<div class="collapse navbar-collapse" id="myNavbar">
-					<ul class="nav navbar-nav">
-						
-						<li><a class="nav-item scroll"  rel="#about" title="live">About</a></li>
-						<li><a class="nav-item scroll"  rel="#live" title="live">Live</a></li>
-						<li><a class="scroll" rel="#listen" title="listen">Listen</a></li>
-						<li><a class="scroll" rel="#video" title="video">Videos</a></li>
-						<li><a href="mailto:waffletaco@clodewerks.com" title="email">Contact</a></li>
-						<li><a href="http://waffletaco.bandcamp.com/" title="shop">Shop</a></li>
-						<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Social<span class="caret"></span></a>
-						<ul class="dropdown-menu">
-							<li><a id="fb"  href="https://www.facebook.com/waffletacopdx" title="facebook"><i class="fa fa-facebook-official"></i> facebook</a></li>
-							<li><a href="https://www.youtube.com/channel/UClTIgr8r_qAjWSOzdBFfirg" title="youtube"><i class="fa fa-youtube-play"></i> youtube</a></li>
-							<li><a href="https://play.spotify.com/artist/3eZuYqJfnbJcCUpM9fQa26"><i class="fa fa-spotify" title="spotify"></i> spotify</a></li>
-							<li><a href="https://soundcloud.com/waffle-taco" title="soundcloud"><i class="fa fa-soundcloud"></i> soundcloud</a></li>
-							<li><a href="http://waffletaco.bandcamp.com/" title="bandcamp"> <span class="fa-stack"><i class="fa fa-eraser fa-stack-1x"></i><i class="fa fa-eraser fa-rotate-180 fa-stack-1x"></i><i style="padding-left:0.4em;" class="fa fa-eraser fa-stack-1x"></i><i style="padding-right:0.4em;" class="fa fa-eraser fa-rotate-180 fa-stack-1x"></i></span>bandcamp</a></li>
-						</ul>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<meta name="description" content="">
+	<meta name="author" content="Kyle Linneman">
+	<link rel="shortcut icon" href="./images/weblogo.ico" />
+	<link rel="icon" href="../../favicon.ico">
+	<title>Waffle Taco</title>
+	<!-- Bootstrap core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicons/site.webmanifest">
+	<link rel="stylesheet" href="./fontAwesome/css/font-awesome.min.css">
+</head>
+
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+					aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand scroll" rel="welcome">Waffle Taco</a>
+			</div>
+			<div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li><a class="scroll" rel="music" title="music">Music</a></li>
+					<li><a class="nav-item scroll" rel="live" title="live">Live</a></li>
+					<li><a class="scroll" rel="video" title="video">Videos</a></li>
+					<li><a class="nav-item scroll" rel="about" title="live">About</a></li>
+					<li><a href="mailto:booking@waffletacopdx.com" title="email">Contact</a></li>
+					<li><a class="scroll" rel="links" title="video">Links</a></li>
+					<li>
+						<a href="http://waffletaco.bandcamp.com/" target="_blank" rel="newwindow" title="shop">Shop</a>
 					</li>
-					
 				</ul>
 			</div>
-			
 		</div>
 	</nav>
-	<div id="wrapper">
-		<div id="header">
+	<div id=" " class="jumbotron">
+		<div class="container welcome">
 			<h1>Waffle Taco</h1>
 		</div>
-		<div id="content">
-			<div class="clear"></clear>
-				<p id="about"><em>“Aurally, wierdly delicious”</em> Waffle Taco is a Portland based jazz duo. The duo consists of Ben Beauvais with bass, vocals and Kyle Linneman on trumpet. Waffle Taco’s main ingredient is jazz, but added notes of moving trumpet melodies and poignant songwriting give this duo their delicious sound. Waffle Taco has 3 albums and an EP, and has notably performed at NW LoopFest and Portland Saturday Market.   </p>
-				<div class="clear"></div>
-				<p><strong>Sign up to get the latest from Waffle Taco:</strong></p>
-				<div id="mc_embed_signup">
-					<form action="//waffletacopdx.us13.list-manage.com/subscribe/post?u=a73f15b5735501b5fb338955a&amp;id=8e6b84e214" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-						<div id="mc_embed_signup_scroll">
-							<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-							<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-							<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_a73f15b5735501b5fb338955a_8e6b84e214" tabindex="-1" value=""></div>
-							<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-						</div>
-					</form>
-				</div>
-				<h2 id="live">Live</h2>
-				<a href="http://www.songkick.com/artists/5993109" class="songkick-widget" data-theme="light" data-track-button="on" data-detect-style="true" data-background-color="transparent"></a>
-				<script src="http://widget.songkick.com/widget.js"></script>				
-				<h2 id="listen">Listen:</h2>
-				<div id="albums">
-					<h3>Albums:</h3>
-					<iframe style="border: 0; width: 200px; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=78552734/size=large/bgcol=ffffff/linkcol=7137dc/minimal=true/transparent=true/" seamless><a href="http://waffletaco.bandcamp.com/album/a-la-cart">A La Cart by Waffle Taco</a></iframe>
-					<iframe style="border: 0; width: 200px; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=4007082456/size=large/bgcol=ffffff/linkcol=7137dc/minimal=true/transparent=true/" seamless><a href="http://waffletaco.bandcamp.com/album/waffle-taco">Waffle Taco by Waffle Taco</a></iframe>
-					<iframe style="border: 0; width: 200px; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=1896215262/size=large/bgcol=ffffff/linkcol=7137dc/minimal=true/transparent=true/" seamless><a href="http://waffletaco.bandcamp.com/album/raw">Raw by Waffle Taco</a></iframe>
-					<iframe style="border: 0; width: 200px; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=1875254662/size=large/bgcol=ffffff/linkcol=7137dc/minimal=true/transparent=true/" seamless><a href="http://waffletaco.bandcamp.com/album/wrektango">WrekTango by Waffle Taco</a></iframe>
-				</div>
-				<h2 id="video">Video</h2>
-				<div class="video"><iframe src="https://www.youtube.com/embed/L1Sg7VY6AkI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-				<h2>What They Say:</h2>
-				<p>The Portland Mercury: <em><a href="http://www.portlandmercury.com/events/14607371/waffle-taco" rel="newwindow">Waffle Taco</a></em></p>
-				<p>Willamette Week: <em><a href="http://www.wweek.com/portland//event-143263-waffle_taco_fond_of_snakes_lithopedian_hellocitizen.html" rel="newwindow">Waffle Taco is aurally, weirdly delicious.</a></em></p>
-				
+	</div>
+	<!--Music -->
+	<div class="container secondary dark" id="music">
+		<h1>Music</h1>
+		<div class="row">
+			<div>
+				<a id="WaffleTaco" class="album-container"
+					href="https://clodewerks.bandcamp.com/album/oldwerks-kl-from-the-al" target="_blank">
+					<div class="album-label">Waffle Taco</div>
+				</a>
+				<a id="ALaCart" class="album-container"
+					href="https://distrokid.com/hyperfollow/clodewerks/selected-clodewerks-2" target="_blank">
+					<div class="album-label">A La Cart</div>
+				</a>
+				<a id="Raw" class="album-container" href="https://distrokid.com/hyperfollow/clodewerks/clodewerks-2"
+					target="_blank">
+					<div class="album-label">Raw</div>
+				</a>
+				<a id="WrekTango" class="album-container" href="https://distrokid.com/hyperfollow/clodewerks/fishwerks"
+					target="_blank">
+					<div class="album-label">WrekTango</div>
+				</a>
+				<a id="EphemeralGraffiti" class="album-container"
+					href="https://distrokid.com/hyperfollow/clodewerks/santawerks" target="_blank">
+					<div class="album-label">Ephemeral Graffiti</div>
+				</a>
 			</div>
 		</div>
-		<div id="footer">&#169; 2011 - present Waffle Taco</div>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<script src="js/wt.js"></script>
-	</body>
+	</div>
+	<div class="container secondary" id="live">
+		<h1>Live Dates</h1>
+		<script charset="utf-8" src="https://widget.bandsintown.com/main.min.js"></script><a
+			class="bit-widget-initializer" data-artist-name="clodewerks" data-display-local-dates="false"
+			data-display-past-dates="false" data-auto-style="false" data-text-color="#fff" data-link-color="#000000"
+			data-background-color="rgba(0,0,0,0)" data-display-limit="10" data-display-start-time="true"
+			data-link-text-color="#FFFFFF" data-display-lineup="false" data-display-play-my-city="true"
+			data-separator-color="rgba(255, 255, 255, 0.5)"></a>
+	</div>
+	<div class="container secondary dark" id="video">
+		<h1>Video</h1>
+		<div class="aspect-ratio">
+			<iframe width="100%" src="https://www.youtube.com/embed/L1Sg7VY6AkI" frameborder="0"
+				allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+				allowfullscreen></iframe>
+		</div>
+	</div>
+	<div class="container secondary" id="about">
+		<h1>About</h1>
+		<p><em>“Aurally, wierdly delicious,” Waffle Taco is a Portland based jazz trio. The trio consists of Ben
+				Beauvais (bass, vocals), Kyle Linneman (trumpet), and Andrew Lawless (Sax). Waffle Taco’s main
+				ingredient is jazz, but added notes of moving trumpet melodies and poignant songwriting give this group
+				their delicious sound. Waffle Taco has 4 albums and an EP, and has notably performed at NW LoopFest and
+				Portland Saturday Market. </p>
+	</div>
+	<div class="container secondary dark" id="links">
+		<h1>Links</h1>
+		<ul>
+			<li><a id="fb" href="https://www.facebook.com/waffletacopdx" title="facebook"><i
+						class="fa fa-facebook-official"></i> facebook</a></li>
+			<li><a href="https://www.youtube.com/channel/UClTIgr8r_qAjWSOzdBFfirg" title="youtube"><i
+						class="fa fa-youtube-play"></i> youtube</a></li>
+			<li><a href="https://play.spotify.com/artist/3eZuYqJfnbJcCUpM9fQa26"><i class="fa fa-spotify"
+						title="spotify"></i> spotify</a></li>
+			<li><a href="https://soundcloud.com/waffle-taco" title="soundcloud"><i class="fa fa-soundcloud"></i>
+					soundcloud</a></li>
+			<li><a href="http://waffletaco.bandcamp.com/" title="bandcamp"> <span class="fa-stack"><i
+							class="fa fa-eraser fa-stack-1x"></i><i
+							class="fa fa-eraser fa-rotate-180 fa-stack-1x"></i><i style="padding-left:0.4em;"
+							class="fa fa-eraser fa-stack-1x"></i><i style="padding-right:0.4em;"
+							class="fa fa-eraser fa-rotate-180 fa-stack-1x"></i></span>bandcamp</a></li>
+			<li><a href="mailto:booking@waffletacopdx.com" title="email"><i class="fa fa-envelope"></i> Email</a></li>
+		</ul>
+		<h1>Press</h1>
+		<p>The Portland Mercury: <em><a href="http://www.portlandmercury.com/events/14607371/waffle-taco"
+					rel="newwindow">Waffle Taco</a></em></p>
+		<p>Willamette Week: <em><a
+					href="http://www.wweek.com/portland//event-143263-waffle_taco_fond_of_snakes_lithopedian_hellocitizen.html"
+					rel="newwindow">Waffle Taco is aurally, weirdly delicious.</a></em></p>
+	</div>
+	<footer>
+		<p> &copy; 2022 Waffle Taco</p>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/site.js"></script>
+</body>
+
 </html>
