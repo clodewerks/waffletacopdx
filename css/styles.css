@@ -175,7 +175,6 @@ border-radius:10px;
 }
 
 #EphemeralGraffiti{
-  display:none;
-  background-image: url(../images/santawerks.png);
-  background-size: auto;
+  background-image: url(../images/eg.jpg);
+  background-size: contain;
 }
