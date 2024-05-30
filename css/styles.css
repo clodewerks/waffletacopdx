@@ -68,6 +68,7 @@ margin-bottom:0px;
 position:relative;
 color:#fff;
 }
+
 .welcome h1{
   background-color: rgba(184, 184, 184, 0.5);
   border-radius: 50px;
@@ -93,6 +94,14 @@ border-radius:10px;
  padding:20px;
 border-radius:10px;
 } 
+
+.primary{
+  clear:both;
+  padding-top:30px;
+  width:100%;
+  background-color: #000;
+}
+
 .secondary{
   clear:both;
   padding-top:30px;
@@ -181,5 +190,10 @@ border-radius:10px;
 
 #EphemeralGraffiti{
   background-image: url(../images/eg.jpg);
+  background-size: contain;
+}
+
+#beauvais{
+  background:url(../images/beauvaisbg.jpg)no-repeat top center #000;
   background-size: contain;
 }
