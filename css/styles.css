@@ -197,3 +197,8 @@ border-radius:10px;
   background:url(../images/beauvaisbg.jpg)no-repeat top center #000;
   background-size: contain;
 }
+
+#keylight{
+  background:url(../images/keylight.png)no-repeat top center #000;
+  background-size: contain;
+}
